@@ -6,6 +6,7 @@ public class Juego {
     private Revolver revolver;
     private ArrayList<Jugador> jugadores;
     private boolean todosDisparan;
+    private boolean todosMueren;
 
     public Juego() {
         this.revolver = new Revolver();
@@ -29,13 +30,27 @@ public class Juego {
     }
 
     public boolean finJuego(){
-        for (int i = 0; i < jugadores.size(); i++) {
-            if (!jugadores.get(i).isVivo()) {
-                System.out.println("Juego terminado");
+        if (!todosMueren) {
+            for (int i = 0; i < jugadores.size(); i++) {
+                if (!jugadores.get(i).isVivo()) {
+                    System.out.println("Juego terminado");
+                    return true;
+                }
+            }
+            return false;
+        } else {
+            int muertos = 0;
+            for (int i = 0; i < jugadores.size(); i++) {
+                if (!jugadores.get(i).isVivo()) {
+                    muertos++;
+                }
+            }
+            if (muertos >= jugadores.size()) {
                 return true;
+            } else {
+                return false;
             }
         }
-        return false;
     }
 
     public void ronda() {
@@ -101,6 +116,22 @@ public class Juego {
             todosDisparan = true;
         } else {
             todosDisparan = false;
+        }
+
+        tipoRonda = 3; //reutilizo la variable tipoRonda
+        while (tipoRonda < 1 || tipoRonda > 2) {
+            System.out.println("Cuando quieres que acabe la partida: ");
+            System.out.println("1 - La partida acaba en el momento que al menos un jugador en la ronda muere");
+            System.out.println("2 - La partida acaba cuando solo queda una persona viva (o ninguno en caso de que todos mueran en la misma ronda)");
+            tipoRonda = sc.nextInt();
+            if (tipoRonda < 1 || tipoRonda > 2) {
+                System.out.println("Por favor, introduce un valor valido");
+            }
+        }
+        if (tipoRonda == 1) {
+            todosMueren = false;
+        } else {
+            todosMueren = true;
         }
     }
 
