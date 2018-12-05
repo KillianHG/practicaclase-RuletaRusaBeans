@@ -44,6 +44,12 @@ Has de fer el següent:
 
 public class Main {
     public static void main(String[] args) {
+        Juego j = new Juego();
+
+        j.inicioJuego();
+        while (!j.finJuego()) {
+            j.ronda();
+        }
 
     }
 }

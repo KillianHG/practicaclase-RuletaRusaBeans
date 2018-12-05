@@ -10,8 +10,29 @@ public class Jugador {
         this.vivo = vivo;
     }
 
-    public void disparar (Revolver r) {
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setVivo(boolean vivo) {
+        this.vivo = vivo;
+    }
+
+    public void disparar(Revolver r) {
+        System.out.print(nombre);
+        vivo=r.disparar();
     }
 
     public boolean isVivo() {
