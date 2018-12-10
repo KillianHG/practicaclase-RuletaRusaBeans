@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="unnamed">
-    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
-    <root id="archive" name="unnamed.jar">
+  <artifact type="jar" name="RuletaRusa">
+    <output-path>$PROJECT_DIR$/out/artifacts/RuletaRusa</output-path>
+    <root id="archive" name="RuletaRusa.jar">
       <element id="file-copy" path="$PROJECT_DIR$/out/production/RuletaRusa/Juego.class" />
       <element id="file-copy" path="$PROJECT_DIR$/out/production/RuletaRusa/Jugador.class" />
       <element id="file-copy" path="$PROJECT_DIR$/out/production/RuletaRusa/Revolver.class" />

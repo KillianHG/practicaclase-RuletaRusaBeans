@@ -46,6 +46,38 @@ public class Juego implements Serializable {
     }
 
     /**
+     * Devuelve true si todos en la ronda disparan y false si la ronda acaba cuando uno muere
+     * @return
+     */
+    public boolean isTodosDisparan() {
+        return todosDisparan;
+    }
+
+    /**
+     * Modifica si todos disparan o no
+     * @param todosDisparan
+     */
+    public void setTodosDisparan(boolean todosDisparan) {
+        this.todosDisparan = todosDisparan;
+    }
+
+    /**
+     * Devuelve true si tel juego acaba cuando uno muere y false si el juego acaba cuando uno muere
+     * @return
+     */
+    public boolean isTodosMueren() {
+        return todosMueren;
+    }
+
+    /**
+     * Modifica si todos mueren o no
+     * @param todosMueren
+     */
+    public void setTodosMueren(boolean todosMueren) {
+        this.todosMueren = todosMueren;
+    }
+
+    /**
      * Comprueba si el juego se ha terminado segun el tipo de juego que se ha decidido
      * @return true si la partida ha acabado, false si no lo ha hecho aun.
      */
