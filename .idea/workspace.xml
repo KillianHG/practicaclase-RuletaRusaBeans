@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b5daef-99a9-40a4-a33b-f4f11b6c5156" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Juego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Revolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Revolver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Jugador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
+            <state relative-caret-position="604">
               <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding>
                 <element signature="method#Jugador#0;class#Jugador#0" />
@@ -61,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Revolver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -132,6 +130,24 @@
             <path>
               <item name="RuletaRusa" type="b2602c69:ProjectViewProjectNode" />
               <item name="RuletaRusa" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuletaRusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RuletaRusa" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuletaRusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RuletaRusa" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="RuletaRusa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RuletaRusa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RuletaRusa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -144,9 +160,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544460107682" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544460375515" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -187,7 +207,7 @@
       <workItem from="1543949240156" duration="2765000" />
       <workItem from="1544022608178" duration="7846000" />
       <workItem from="1544455136348" duration="69000" />
-      <workItem from="1544455272255" duration="4820000" />
+      <workItem from="1544455272255" duration="5088000" />
     </task>
     <task id="LOCAL-00001" summary="Creando clases y tal">
       <created>1543952222882</created>
@@ -210,15 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544030589660</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="To comentao y tal">
+      <created>1544460119517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544460119519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15500000" />
+    <option name="totallyTimeSpent" value="15768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15865384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -259,7 +285,8 @@
     <MESSAGE value="Creando clases y tal" />
     <MESSAGE value="El juego funca" />
     <MESSAGE value="Todos mueren/uno muere" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todos mueren/uno muere" />
+    <MESSAGE value="To comentao y tal" />
+    <option name="LAST_COMMIT_MESSAGE" value="To comentao y tal" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Funciones.java" />
@@ -267,24 +294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Jugador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding>
-            <element signature="method#Jugador#0;class#Jugador#0" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -324,6 +333,24 @@
             <element signature="e#715#716#0" expanded="true" />
             <element signature="e#791#792#0" expanded="true" />
             <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Jugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="method#Jugador#0;class#Jugador#0" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
           </folding>
         </state>
       </provider>
